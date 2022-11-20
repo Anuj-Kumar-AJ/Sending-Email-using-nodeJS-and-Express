@@ -6,7 +6,7 @@ nodemailer = require('nodemailer');
 // creating an instance of express
 app = express();
 
-port = process.env.port || 3000;
+
 
 
 let transporter = nodemailer.createTransport({
